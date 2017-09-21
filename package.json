@@ -1,0 +1,23 @@
+{
+  "name": "react-retrogrames",
+  "version": "1.0.0",
+  "description": "retogames archive in MERN - following a tutorial ",
+  "main": "server.js",
+  "repository": "https://github.com/lelbil/retrogames-archive",
+  "author": "samZaza",
+  "license": "MIT",
+  "scripts": {
+    "api": "babel-node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
